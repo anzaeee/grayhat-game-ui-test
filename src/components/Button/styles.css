@@ -1,0 +1,15 @@
+.button {
+  box-shadow: -6px 6px 0px 0px rgba(0, 0, 0, 0.8);
+}
+
+.button.active {
+  @apply bg-black text-white shadow-none;
+}
+
+.button:hover {
+  @apply bg-slate-300;
+}
+
+.kebab-button {
+  box-shadow: -6px 6px 0px 0px rgba(0, 0, 0, 0.8);
+}

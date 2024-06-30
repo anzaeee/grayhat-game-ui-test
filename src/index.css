@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .status-button {
+  @apply bg-amber-300 border border-gray-200 p-4 transition-all;
+  @apply flex justify-center items-center;
+  min-width: 100px; /* Min width to hold text */
+  height: 60px; /* Fixed height */
+  box-shadow: -4px 4px 0px 0px rgba(0, 0, 0, 0.75); /* Left bottom shadow */
+}
+
+.status-button:hover {
+  @apply bg-white;
+}
+
+.status-button:active {
+  @apply bg-gray-300;
+}
+
+.status-button.active {
+  @apply bg-black text-amber-300;
+} */

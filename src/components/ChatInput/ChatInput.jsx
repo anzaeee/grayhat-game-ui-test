@@ -20,7 +20,7 @@ const ChatInput = ({ onSendMessage }) => {
   };
 
   return (
-    <div className="chat-input flex items-center bg-white">
+    <div className="chat-input flex flex-grow items-center bg-white">
       <BaseInput disableRipple disableFocusRipple
         className="flex p-2 w-full" 
         placeholder="Type your message..." 
@@ -29,7 +29,7 @@ const ChatInput = ({ onSendMessage }) => {
         onKeyPress={handleKeyPress}
       />
       <BaseButton disableRipple disableFocusRipple
-        className="send-button p-2 bg-white text-black shadow-button"
+        className="send-button p-2 w-fit bg-white text-black shadow-button"
         onClick={handleSend}
       >
         →
